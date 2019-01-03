@@ -5,7 +5,7 @@
     <span>多行message是:</span>
     <p style="white-space: pre-line;">{{ message }}</p>
     <br>
-    <textarea v-model="message" placeholder="请在此输入多行文本"></textarea>
+    <textarea v-model="message" placeholder="请在此输入多行文本内容"></textarea>
   </div>
 </template>
 
